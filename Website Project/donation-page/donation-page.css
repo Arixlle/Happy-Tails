@@ -1,0 +1,308 @@
+/* Applies to the entire website */
+body {
+  font-family: "Arial";
+  margin: 0px;
+}
+
+/* Logo */
+#logo {
+  width: 180px;
+  height: 120px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #469387;
+    position: fixed;
+    display: block;
+    box-shadow: 1px 10px 10px black;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+.logo {
+    text-align: left;
+    height: 100px;
+    width: auto;
+}
+
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 36px 10px;
+    margin: 0px 1px;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: #e69739;
+}
+
+
+#donate {
+  background-color: #aad3dc;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+#header input {
+  background-color: #ECE8E8;
+  height: 23px;
+}
+#header button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Background */
+#background {
+  margin-top: 20px;
+  width: 100vw;
+  height: auto;
+  max-height: 57vh;
+  object-fit: cover;
+  object-position: top 75%; 
+}
+
+/* Description */
+.info {
+  margin-left: 20px;
+  font-size: 24px;
+}
+#description {
+  margin: 20px;
+}
+#description h1 {
+  margin: 0px;
+  font-size: 24px;
+}
+#description p {
+  text-align: justify;
+}
+
+/* Container for Donation Amounts, Contact Information,
+Billing Addresss, Payment Information, and Images */
+#container {
+  display: flex;
+}
+
+/* Donation Amounts */
+#donation-amounts {
+  margin: 20px;
+  width: 50vw;
+  max-width: 625px;
+}
+
+.amount_input {
+  display: none;
+}
+
+.amount_input:checked+label{
+  background-color: #00cc00;
+}
+
+.amount_label{
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  background-color: #aad3dc;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+  padding-top: 35px;
+}
+
+*/
+#donation-amounts= button:active {
+  background-color: #0daed1;
+}
+
+#donation-amounts button:hover {
+  background-color: #0daed1;
+  transition: 0.3s;
+}
+
+/* Contact Information */
+.contact-info {
+  display: flex;
+}
+.contact-info h6 {
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+#first-name {
+  width: 230px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8;
+}
+#last-name {
+  width: 230px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8
+}
+#email {
+  width: 280px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  margin-top: 5px;
+  background-color: #ECE8E8
+}
+#phone-num {
+  width: 200px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8
+}
+
+/* Billing Address */
+.billing-add {
+  display: flex;
+}
+.billing-add h6 {
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  }
+#address1 {
+  width: 515px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8;
+}
+#address2 {
+  width: 515px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8;
+}
+#city {
+  width: 150px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8
+}
+#state {
+  width: 150px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8
+}
+#zip-code {
+  width: 100px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8
+}
+
+/* Payment Information */
+.payment-info {
+  display: flex;
+}
+.payment-info h6 {
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+#name-on-card {
+  width: 515px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8;
+}
+#card-number{
+  width: 350px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8;
+}
+#card-type {
+  width: 150px;
+  height: 32px;
+  margin-right: 5px;
+  margin-left: 10px;
+  background-color: #ECE8E8;
+}
+#expiry-date {
+  width: 80px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8;
+  text-align: center;
+}
+#cvv {
+  width: 80px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 20px;
+  background-color: #ECE8E8;
+}
+#donate-b {
+  margin-right: 5px;
+  margin-left: 210px;
+  margin-bottom: 3px;
+  background-color: #aad3dc;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.image {
+  width: 25vw;
+  height: 25vh;
+  object-fit: cover;
+}

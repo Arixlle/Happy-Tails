@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="images/image1.png">
+      <title>Home Page</title>
+      <style>
+
+        /* Header */
+          #logo {
+          width: 180px;
+          height: 120px;
+          border-radius: 20px;
+          margin-top: 15px;
+          margin-left: 15px;
+        }
+
+
+          header {
+          font-family: arial;
+          width: 100%;
+          height: 100px;
+          background-color: #469387;
+          position: fixed;
+          display: block;
+          box-shadow: 1px 10px 10px black;
+        }
+
+        .wrapper {
+          width: 90%;
+          margin: 0px auto;
+          overflow: auto;
+        }
+
+        .logo {
+          text-align: left;
+          height: 100px;
+          width: auto;
+        }
+
+
+        nav {
+          float: right;
+          line-height: 100px;
+        }
+
+        nav a {
+          letter-spacing: 4px;
+          font-size: 20px;
+          color: white;
+          font-weight: 500;
+          text-decoration: none;
+          padding: 36px 10px;
+          margin: 0px 1px;
+        }
+
+        nav a:hover{
+          font-weight: bold;
+          color: #e69739;
+        }
+
+
+        #donate {
+          background-color: #aad3dc;
+          padding-top: 7px;
+          padding-bottom: 7px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-radius: 5px;
+        }
+        
+        #header input {
+          background-color: #ECE8E8;
+          height: 23px;
+        }
+
+        #header button {
+          border: none;
+          border-radius: 5px;
+          padding: 5px;
+          cursor: pointer;
+        }
+
+        /*Body*/
+        .content{
+          display: flex;
+          width: 70vw;
+          margin:auto;
+        }
+        .content h1{
+          font-family: verdana;
+          font-weight: bold;
+          color:#e69739;
+          font-size: 50px;
+          padding-top:150px;
+          text-align: center;
+        }
+
+        .image{
+          width: 400px;
+          height: 400px;
+          margin-left: 50px;
+          margin-top: 25px;
+        }
+
+        .content p{
+          font-family: arial;
+          font-weight: bold;
+          color: black ;
+          line-height: 30px;
+          padding-top: 30px;
+          margin-left: 30px;
+          margin-right: 25px;
+        }
+
+        .boxes  {
+          display: inline-block;
+          text-align: center;
+          font-family: arial;
+          font-size: 16pt;
+          width: 300px;
+          height: 80px;
+          border-radius: 10px;
+          border: 2px solid black;
+          background-color: #aad3dc;
+          color:black;
+          margin-right: 5px;
+          margin-top: 35px;
+          margin-left: 15px;
+          padding-top: 23px;
+        }
+
+        * {
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+        }
+
+        .box {
+          margin: auto;
+
+        }
+
+        .content h2{
+          margin-top: 70px;
+          font-size: 30pt;
+          font-family: calibri;
+        }
+
+      </style>
+  </head>
+
+  <body>
+    <div class="box-area">
+      <header>
+        <div class="wrapper">
+          <img class="logo" src="images/image1.png" alt="Logo" />
+          <nav>
+              <a href="../home-page/home.html">Home</a>
+              <a href="../adoption-process/adoption.html">Adoption Process</a>
+              <a href="../donation-page/donation-page.html">Donate</a>
+              <a href="../volunteer-page/volunteer.html">Volunteer</a>
+              <a href="../animal-services/Animal_services.html">Animal Services</a>
+              <a href="../about-us/aboutus.html">About Us</a>
+              <a href="../contact-us/FinalContact.html">Contact Us</a>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <!--Content-->
+    <div class="content">
+      <div class="box">
+        <h1> Meet the wonderful pets <br> of Happy Tails </h1>
+      </div>
+    </div>
+
+
+    <div class="content">
+        <div class="top">
+          <img class="image" src="dog-in-house.jpg" alt="dog_in_house">
+        </div>
+        <div>
+          <p>
+            Welcome to Happy Tails! Our mission is to provide a safe and loving temporary home for animals in need, while we work to find them their forever homes. Our dedicated staff and volunteers provide exceptional care for every animal that comes through our doors. Whether you're looking to adopt a new furry friend, volunteer your time, or donate to support our cause, we invite you to explore our website and learn more about the important work we do. Together, we can make a difference in the lives of these precious animals.
+          </p>
+          <div class="boxes">
+            <h3 class="1">Pets Adopted: 78 </h3>
+          </div>
+
+          <div class="boxes">
+            <h3>Money Raised: $3641</h3>
+          </div>
+
+          <div class="boxes">
+            <h3>Active Volunteers: 52</h3>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+      <div class="box">
+      <h2>"Second hand animals make first class pets" - Anonymous</h2>
+      </div>
+    </div>
+  </body>
+</html>
